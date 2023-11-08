@@ -8,6 +8,7 @@
         "dd",
         "bd"
     ],
+    "homepage": "https://github.com/angus-mcritchie/laravel-debugbar-dd",
     "license": "MIT",
     "require": {
         "php": "^8.0",
