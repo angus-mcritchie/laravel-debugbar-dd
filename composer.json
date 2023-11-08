@@ -1,0 +1,23 @@
+{
+    "name": "gooby/laravel-debugbar-dd",
+    "type": "helper",
+    "description": "Ever wanted to dd() and see the debugbar? This package does just that by calling bd() - Bar Dump.",
+    "keywords": [
+        "laravel",
+        "debugbar",
+        "dd",
+        "bd"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "barryvdh/laravel-debugbar": "^3",
+        "laravel/framework": "^9|^10",
+        "symfony/var-dumper": "^6"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
